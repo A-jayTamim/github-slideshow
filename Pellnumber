@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+
+int PellNum(int n){
+
+    if (n==0)
+    {
+    return 0;
+    }
+    else if(n==1){
+    return 1;
+    }
+    return 2*PellNum(n-1) + PellNum(n-2);
+
+}
+int main()
+{
+   
+ 
+    for(int n=0; n <10;n++)
+    {
+    cout<<PellNum(n)<<endl;
+    
+    }
+    return 0;
+}
