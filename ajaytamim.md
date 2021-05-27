@@ -1,0 +1,5 @@
+layout:slide
+title: welcome to our slide
+
+your text
+use the left arrow
